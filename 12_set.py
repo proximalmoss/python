@@ -1,0 +1,11 @@
+a=set({1,2,3,4,5})
+print(a)
+print(type(a))
+print(len(a))
+a.remove(2)
+print(a)
+print(a.pop()) #removes random value used to pick random value from set
+print(a.union({8,11}))
+print(a.intersection({3,8,11}))
+print(a.clear())
+print(a)
